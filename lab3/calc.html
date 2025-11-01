@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <style></style>
+    <div class="header">
+        <h1>iOS Calculator</h1>
+    </div>
+
+    <div class="screen">
+        <form>
+            <input id="display" type="text" placeholder="0" readonly>
+
+        </form>
+    </div>
+
+    <div class="keypad">
+        <table>
+            <tr>
+                <td><button id="AC" class="gray buttons">AC</button>
+                </td>
+                <td><button id="00" class="gray buttons">00</button></td>
+                <td><button id="%" class="gray buttons">%</button></td>
+                <td><button id="divide" class="orange buttons">÷</button></td>
+            </tr>
+            <tr>
+                <td><button id="7" class="gray buttons">7</button>
+                </td>
+                <td><button id="8" class="gray buttons">8</button></td>
+                <td><button id="9" class="gray buttons">9</button></td>
+                <td><button id="x" class="orange buttons">x</button></td>
+            </tr>
+            <tr>
+                <td><button id="4" class="gray buttons">4</button>
+                </td>
+                <td><button id="5" class="gray buttons">5</button></td>
+                <td><button id="6" class="gray buttons">6</button></td>
+                <td><button id="minus" class="orange buttons">-</button></td>
+            </tr>
+            <tr><td><button id="1" class="gray buttons">1</button>
+                </td>
+                <td><button id="2" class="gray buttons">2</button></td>
+                <td><button id="3" class="gray buttons">3</button></td>
+                <td><button id="+" class="orange buttons">+</button></td></tr>
+            <tr>
+                <td colspan="2"><button id="0" class="gray buttons">0</button>
+                </td>
+                <td><button id="decimal" class="gray buttons">.</button></td>
+                <td><button id="equal" class="orange buttons">=</button></td></tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(238, 242, 255);
+}
+
+.header {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 20px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.about,
+.projects,
+.contact {
+    padding: 40px 20px;
+}
+
+.project {
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+   
+}
+
+
+input,
+textarea {
+    width: 250px;
+    margin: 0 auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+button {
+    width: 250px;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
