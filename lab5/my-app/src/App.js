@@ -7,25 +7,6 @@ import "./App.css";
 function Greeting() {
   return <h1>My Movie Watchlist</h1>
 }
-/*
-function TextBox() {
-  return <textarea id="movie" className="movie" placeholder="Add a movie..."></textarea>
-}
-
-function MyComment() {
-  return <textarea id="comment" className="comment" placeholder="Add a comment..."></textarea>
-}
-
-function MyButton() {
-  return <button>Submit Movie</button>
-}
-
-class Movie {
-  constructor(name) {
-    this.name = name;
-    this.finished = false;
-  }
-}*/
 
 function App() {
 
