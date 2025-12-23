@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.about, .projects, .contact {
+  padding: 40px 20px;
+}
+
+.project {
+  background-color: #f3f3f3;
+  display: inline-block;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+input, textarea {
+  width: 250px;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
